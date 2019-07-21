@@ -3,7 +3,7 @@ slug: demo-08
 date: 2010-10-05
 title: 'Lorem ipsum dolor sit amet'
 description: 'Ut elementum urna quis ex porta, eu porta ante porta. Curabitur a lectus fringilla, condimentum sem eu, efficitur ligula.'
-published: true
+published: false
 banner: './banner.png'
 ---
 

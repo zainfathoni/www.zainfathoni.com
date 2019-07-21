@@ -3,7 +3,7 @@ slug: demo-02
 date: 2018-01-01
 title: 'Please, Tell Me More'
 description: 'Sed vehicula mauris vel felis faucibus placerat. Quisque sed justo quis tellus aliquam tincidunt. Vestibulum sit amet ante sit amet nibh accumsan viverra.'
-published: true
+published: false
 banner: './banner.png'
 ---
 

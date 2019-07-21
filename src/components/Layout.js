@@ -136,7 +136,7 @@ export default ({
   frontmatter = {},
   children,
   noFooter,
-  noSubscribeForm,
+  noSubscribeForm = true,
 }) => {
   const initializeTheme = () => {
     if (typeof window !== 'undefined') {
@@ -148,12 +148,9 @@ export default ({
 
   const [themeName, setTheme] = useState(initializeTheme)
 
-  useEffect(
-    () => {
-      localStorage.setItem('theme', themeName)
-    },
-    [themeName],
-  )
+  useEffect(() => {
+    localStorage.setItem('theme', themeName)
+  }, [themeName])
 
   const toggleTheme = name => setTheme(name)
   const theme = {

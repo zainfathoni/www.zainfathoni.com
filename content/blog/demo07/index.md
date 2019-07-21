@@ -3,7 +3,7 @@ slug: demo-07
 date: 2010-10-05
 title: 'Lorem ipsum dolor sit amet'
 description: 'Aliquam at mauris leo. Duis neque eros, malesuada non mauris eget, volutpat imperdiet enim.'
-published: true
+published: false
 banner: './banner.png'
 ---
 
