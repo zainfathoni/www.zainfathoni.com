@@ -3,7 +3,7 @@ slug: demo-06
 date: 2010-10-05
 title: 'Everybody Is Above Average'
 description: 'Nulla vel libero quis sem convallis aliquam.'
-published: true
+published: false
 banner: './banner.png'
 ---
 
