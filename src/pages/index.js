@@ -34,9 +34,10 @@ const Hero = () => {
             line-height: 1.5;
             margin: 0;
             max-width: ${rhythm(15)};
+            font-size: 27px;
           `}
         >
-          Hi! I'm Zain Fathoni, an Indonesian Developer Living in Singapore.
+          I'm an Indonesian 🇮🇩 Developer Living in Singapore 🇸🇬
         </h1>
       </Container>
       <div
@@ -98,9 +99,21 @@ export default function Index({ data: { site, allMdx } }) {
             </Description>
           </div>
         ))}
-        <Link to="/blog" aria-label="Visit blog page">
-          View all articles
+        You might know me from{' '}
+        <Link to="https://youtu.be/ioh7aqrBcs0" aria-label="Watch my talk">
+          my talk
+        </Link>{' '}
+        at{' '}
+        <Link
+          to="https://2019.jsconf.asia"
+          aria-label="JSConf Asia 2019 website"
+        >
+          JSConf Asia 2019
         </Link>
+        .
+        {/* <Link to="/blog" aria-label="Visit blog page">
+          View all articles
+        </Link> */}
         <hr />
       </Container>
     </Layout>
