@@ -5,7 +5,7 @@ module.exports = {
   siteTitleShort: 'Zain', // short_name for manifest
   siteUrl: 'https://www.zainfathoni.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: 'images/logo.png', // Used for SEO and manifest, path to your image you placed in the 'static' folder
+  siteLogo: 'images/zain.jpg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription: "Zain Fathoni's personal website",
   author: 'Zain Fathoni', // Author for schemaORGJSONLD
   organization: 'www.zainfathoni.com',
