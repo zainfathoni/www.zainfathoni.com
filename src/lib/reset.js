@@ -2,7 +2,7 @@ import { css } from '@emotion/core'
 import { useTheme } from '../components/Theming'
 import typography, { fonts } from '../lib/typography'
 
-const resetStyles = () => {
+const ResetStyles = () => {
   const theme = useTheme()
   return css`
   form {
@@ -73,6 +73,7 @@ const resetStyles = () => {
   }
   figure {
     margin: 0 0 1rem 0;
+  }
   img {
     vertical-align: middle;
   }
@@ -157,4 +158,4 @@ const resetStyles = () => {
 `
 }
 
-export default resetStyles
+export default ResetStyles

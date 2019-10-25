@@ -34,7 +34,6 @@ const Hero = () => {
             line-height: 1.5;
             margin: 0;
             max-width: ${rhythm(15)};
-            font-size: 27px;
           `}
         >
           I'm an Indonesian 🇮🇩 Developer Living in Singapore 🇸🇬
