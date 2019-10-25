@@ -36,7 +36,7 @@ const Hero = () => {
             max-width: ${rhythm(15)};
           `}
         >
-          I'm an Indonesian 🇮🇩 Developer Living in Singapore 🇸🇬
+          I'm an Indonesian <span role='img' aria-label='Indonesian Flag'>🇮🇩</span> Developer Living in Singapore <span role='img' aria-label='Singaporean Flag'>🇸🇬</span>
         </h1>
       </Container>
       <div
