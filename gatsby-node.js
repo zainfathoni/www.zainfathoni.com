@@ -55,9 +55,6 @@ exports.createPages = ({ actions, graphql }) =>
               slug
               date
             }
-            code {
-              scope
-            }
           }
         }
       }
@@ -198,6 +195,12 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       name: 'redirects',
       node,
       value: node.frontmatter.redirects,
+    })
+
+    createNodeField({
+      name: 'isPost',
+      node,
+      value: true
     })
   }
 }
