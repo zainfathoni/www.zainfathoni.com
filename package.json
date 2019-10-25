@@ -52,7 +52,7 @@
     "react-markdown": "^4.0.9",
     "react-share": "^3.0.0",
     "react-typography": "^0.16.19",
-    "serve": "^11.0.2",
+    "serve": "^11.2.0",
     "typescript": "^3.5.2",
     "typography": "^0.16.19",
     "yup": "^0.27.0"
