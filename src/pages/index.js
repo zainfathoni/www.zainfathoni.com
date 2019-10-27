@@ -81,7 +81,7 @@ export default function Index({ data: { site, allMdx } }) {
               })}
             >
               <Link
-                to={post.frontmatter.slug}
+                to={post.fields.slug}
                 aria-label={`View ${post.frontmatter.title}`}
               >
                 {post.frontmatter.title}
