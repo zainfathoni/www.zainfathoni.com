@@ -80,7 +80,7 @@ export default function Post({
       </article>
       <Container noVerticalPadding>
         <Share
-          url={`${config.siteUrl}/${mdx.frontmatter.slug}/`}
+          url={`${config.siteUrl}/${mdx.fields.slug}/`}
           title={title}
           twitterHandle={config.twitterHandle}
         />
@@ -96,6 +96,9 @@ export const pageQuery = graphql`
       ...site
     }
     mdx(fields: { id: { eq: $id } }) {
+      fields {
+        slug
+      }
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
@@ -107,7 +110,6 @@ export const pageQuery = graphql`
             }
           }
         }
-        slug
         keywords
       }
       body
