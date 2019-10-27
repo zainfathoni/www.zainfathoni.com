@@ -127,7 +127,7 @@ export const pageQuery = graphql`
     }
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { type: { eq: "blog" } } }
+      filter: { fields: { type: { eq: "speak" } } }
     ) {
       edges {
         node {

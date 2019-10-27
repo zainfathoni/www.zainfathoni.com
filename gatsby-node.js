@@ -74,6 +74,9 @@ exports.createPages = ({ actions, graphql }) =>
     createPaginatedPages(actions.createPage, edges, '/blog', {
       categories: [],
     })
+    createPaginatedPages(actions.createPage, edges, '/speak', {
+      categories: [],
+    })
   })
 
 exports.onCreateWebpackConfig = ({ actions }) => {
@@ -104,10 +107,14 @@ const createPaginatedPages = (createPage, edges, pathPrefix, context) => {
   pages.forEach((page, index) => {
     const previousPagePath = `${pathPrefix}/${index + 1}`
     const nextPagePath = index === 1 ? pathPrefix : `${pathPrefix}/${index - 1}`
+    const templates = {
+      '/blog': 'src/templates/blog.js',
+      '/speak': 'src/templates/speak.js',
+    }
 
     createPage({
       path: index > 0 ? `${pathPrefix}/${index}` : `${pathPrefix}`,
-      component: path.resolve(`src/templates/blog.js`),
+      component: path.resolve(templates[pathPrefix]),
       context: {
         pagination: {
           page,
@@ -164,7 +171,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: 'slug',
       node,
-      value: slug,
+      value: `${parent.sourceInstanceName}/${slug}`,
     })
 
     createNodeField({
@@ -198,9 +205,9 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
 
     createNodeField({
-      name: 'isPost',
+      name: 'type',
       node,
-      value: true
+      value: parent.sourceInstanceName,
     })
   }
 }
