@@ -92,7 +92,7 @@ const Blog = ({
               to={`/${post.fields.slug}`}
               aria-label={`view "${post.frontmatter.title}" article`}
             >
-              Read Article →
+              More →
             </Link>
           </div>
         ))}
