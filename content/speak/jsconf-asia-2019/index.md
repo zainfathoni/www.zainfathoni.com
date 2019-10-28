@@ -33,4 +33,5 @@ Join my journey in solving those kinds of issues using State Machines and see ho
 
 ## Related Links
 
-- [Other Videos in related topic](https://xstate.js.org/docs/about/tutorials.html#videos)
+- [Recommended tutorial videos in XState official documentation](https://xstate.js.org/docs/about/tutorials.html#videos)
+- [State Management In React](https://reactresources.com/topics/state-management)
