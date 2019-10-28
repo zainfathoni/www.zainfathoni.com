@@ -2,7 +2,7 @@
 slug: jsconf-asia-2019
 date: 2019-06-15
 title: 'State Machines Meet React Hooks'
-description: 'Curabitur fringilla vel purus sit amet malesuada.'
+description: 'JS Conf Asia 2019'
 published: true
 banner: './banner.jpeg'
 ---
@@ -25,8 +25,12 @@ Join my journey in solving those kinds of issues using State Machines and see ho
 
 <iframe width="700" height="400" src="https://www.youtube.com/embed/ioh7aqrBcs0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Related Links
+## Resources
 
 - [Slides](http://bit.ly/jsconf-asia-2019-state-machines)
 - [Slides Repository](https://github.com/zainfathoni/state-machines-meet-react-hooks)
 - [Event Website](https://2019.jsconf.asia/#program)
+
+## Related Links
+
+- [Other Videos in related topic](https://xstate.js.org/docs/about/tutorials.html#videos)
