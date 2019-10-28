@@ -71,18 +71,29 @@ export default function Index({ data: { site, allMdx } }) {
           padding-bottom: 0;
         `}
       >
-        You might know me from{' '}
-        <Link to="/talk/jsconf-asia-2019" aria-label="My JSConf Asia 2019 talk">
-          my talk
-        </Link>{' '}
-        at{' '}
-        <Link
-          to="https://2019.jsconf.asia#program"
-          aria-label="JSConf Asia 2019 program"
-        >
-          JSConf Asia 2019
-        </Link>
-        .<h1>Talk</h1>
+        <h1>Hi, I'm Zain!</h1>
+        <p>
+          You might know me from{' '}
+          <Link
+            to="/talk/jsconf-asia-2019"
+            aria-label="My JSConf Asia 2019 talk"
+          >
+            my talk
+          </Link>{' '}
+          at{' '}
+          <Link
+            to="https://2019.jsconf.asia#program"
+            aria-label="JSConf Asia 2019 program"
+          >
+            JSConf Asia 2019
+          </Link>
+          ...
+          <br />
+          <Link to="/about" aria-label={'View about page'}>
+            More about me →
+          </Link>
+        </p>
+        <h1>Talk</h1>
         {allMdx.edges.map(({ node: post }) => (
           <div
             key={post.id}

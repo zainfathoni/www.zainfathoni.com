@@ -25,4 +25,5 @@ module.exports = {
   twitterHandle: '@zainfathoni',
   github: 'https://github.com/zainfathoni/',
   linkedin: 'https://www.linkedin.com/in/zainfathoni',
+  stackoverflow: 'https://stackoverflow.com/story/zainfathoni',
 }
