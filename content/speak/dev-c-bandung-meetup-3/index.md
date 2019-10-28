@@ -1,5 +1,5 @@
 ---
-slug: bukalapak-go
+slug: dev-c-bandung-meetup-3
 date: 2017-10-01
 title: 'Bukalapak Bandung Journey with Go'
 description: 'Bukalapak journey with Go, particularly in Bandung office.'
