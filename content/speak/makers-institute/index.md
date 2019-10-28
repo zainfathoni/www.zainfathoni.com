@@ -1,7 +1,7 @@
 ---
 slug: makers-institute
 date: 2017-11-01
-title: 'How Working in IT Looks Like'
+title: 'Makers Institute - How Working in IT Looks Like'
 description: 'Find the "why" you should work in it'
 published: true
 banner: './banner.jpg'

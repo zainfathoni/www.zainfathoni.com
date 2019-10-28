@@ -1,8 +1,8 @@
 ---
 slug: jsconf-asia-2019
 date: 2019-06-15
-title: 'State Machines Meet React Hooks'
-description: 'JS Conf Asia 2019'
+title: 'JSConf Asia 2019 - State Machines Meet React Hooks'
+description: 'A journey in using State Machines along with React Hooks at Ninja Van'
 published: true
 banner: './banner.jpeg'
 ---

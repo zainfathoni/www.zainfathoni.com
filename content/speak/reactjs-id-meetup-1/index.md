@@ -1,8 +1,8 @@
 ---
 slug: reactjs-id-meetup-1
 date: 2019-07-16
-title: 'Gaining Confidence in React App through Testing'
-description: 'ReactJS Indonesia Meetup #1 July 2019'
+title: 'ReactJS Indonesia - Gaining Confidence in React App through Testing'
+description: 'Rethinking approaches in testing React applications'
 published: true
 banner: './banner.jpg'
 ---
