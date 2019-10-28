@@ -33,10 +33,17 @@ const Hero = () => {
             z-index: 5;
             line-height: 1.5;
             margin: 0;
-            max-width: ${rhythm(15)};
+            max-width: ${rhythm(20)};
           `}
         >
-          I'm an Indonesian <span role='img' aria-label='Indonesian Flag'>🇮🇩</span> Developer Living in Singapore <span role='img' aria-label='Singaporean Flag'>🇸🇬</span>
+          An Indonesian{' '}
+          <span role="img" aria-label="Indonesian Flag">
+            🇮🇩
+          </span>{' '}
+          Developer Living in Singapore{' '}
+          <span role="img" aria-label="Singaporean Flag">
+            🇸🇬
+          </span>
         </h1>
       </Container>
       <div
@@ -64,6 +71,18 @@ export default function Index({ data: { site, allMdx } }) {
           padding-bottom: 0;
         `}
       >
+        You might know me from{' '}
+        <Link to="/talk/jsconf-asia-2019" aria-label="My JSConf Asia 2019 talk">
+          my talk
+        </Link>{' '}
+        at{' '}
+        <Link
+          to="https://2019.jsconf.asia#program"
+          aria-label="JSConf Asia 2019 program"
+        >
+          JSConf Asia 2019
+        </Link>
+        .<h1>Talk</h1>
         {allMdx.edges.map(({ node: post }) => (
           <div
             key={post.id}
@@ -98,21 +117,9 @@ export default function Index({ data: { site, allMdx } }) {
             </Description>
           </div>
         ))}
-        You might know me from{' '}
-        <Link to="https://youtu.be/ioh7aqrBcs0" aria-label="Watch my talk">
-          my talk
-        </Link>{' '}
-        at{' '}
-        <Link
-          to="https://2019.jsconf.asia"
-          aria-label="JSConf Asia 2019 website"
-        >
-          JSConf Asia 2019
+        <Link to="/talk" aria-label="Visit Talk page">
+          View all talks
         </Link>
-        .
-        {/* <Link to="/blog" aria-label="Visit blog page">
-          View all articles
-        </Link> */}
         <hr />
       </Container>
     </Layout>
