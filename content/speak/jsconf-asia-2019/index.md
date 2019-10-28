@@ -27,7 +27,7 @@ Join my journey in solving those kinds of issues using State Machines and see ho
 
 ## Resources
 
-- [Slides](http://bit.ly/jsconf-asia-2019-state-machines)
+- [Slides](https://bit.ly/jsconf-asia-2019-state-machines)
 - [Slides Repository](https://github.com/zainfathoni/state-machines-meet-react-hooks)
 - [Event Website](https://2019.jsconf.asia/#program)
 
