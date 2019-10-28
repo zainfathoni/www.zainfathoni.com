@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/content/speak`,
-        name: 'speak',
+        path: `${__dirname}/content/talk`,
+        name: 'talk',
       },
     },
     {

@@ -92,7 +92,7 @@ const Blog = ({
               to={`/${post.fields.slug}`}
               aria-label={`view "${post.frontmatter.title}" article`}
             >
-              Read Article →
+              More →
             </Link>
           </div>
         ))}
@@ -127,7 +127,7 @@ export const pageQuery = graphql`
     }
     allMdx(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { fields: { type: { eq: "speak" } } }
+      filter: { fields: { type: { eq: "talk" } } }
     ) {
       edges {
         node {
