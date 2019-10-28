@@ -74,7 +74,7 @@ exports.createPages = ({ actions, graphql }) =>
     createPaginatedPages(actions.createPage, edges, '/blog', {
       categories: [],
     })
-    createPaginatedPages(actions.createPage, edges, '/speak', {
+    createPaginatedPages(actions.createPage, edges, '/talk', {
       categories: [],
     })
   })
@@ -109,7 +109,7 @@ const createPaginatedPages = (createPage, edges, pathPrefix, context) => {
     const nextPagePath = index === 1 ? pathPrefix : `${pathPrefix}/${index - 1}`
     const templates = {
       '/blog': 'src/templates/blog.js',
-      '/speak': 'src/templates/speak.js',
+      '/talk': 'src/templates/talk.js',
     }
 
     createPage({

@@ -8,11 +8,11 @@ export default () => {
   return (
     <React.Fragment>
       <Link
-        to="/speak"
+        to="/talk"
         activeClassName="active"
         aria-label="View my speaking activities"
       >
-        Speak
+        Talk
       </Link>
       {/*
       <Link to="#" activeClassName="active" aria-label="View blog page">
