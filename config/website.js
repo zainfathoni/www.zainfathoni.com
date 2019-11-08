@@ -18,6 +18,7 @@ module.exports = {
   ogDescription:
     'Family-man, Senior Software Engineer at Ninja Van, previously at Bukalapak. Co-organizer of reactjs.id. JavaScript & Testing Enthusiast.', // Facebook Site Description
   ogLanguage: 'en_US',
+  ogImage: 'images/zain.jpg',
   googleAnalyticsID: '',
 
   // Manifest and Progress color
