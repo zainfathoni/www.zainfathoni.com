@@ -32,10 +32,31 @@ export default ({ data: { site } }) => {
           .
         </p>
         <p>
-          To help my fellow Indonesian developers learn, I write some articles
-          in Bahasa Indonesia at{' '}
-          <a href="https://medium.com/pejuang-kode">a Medium publication</a> and{' '}
-          <a href="https://www.pejuangkode.com">another website</a>.
+          I currently work as a{' '}
+          <a href="https://www.linkedin.com/in/zainfathoni/">
+            Senior Software Engineer
+          </a>{' '}
+          at <a href="https://www.ninjavan.co/en-sg/">Ninja Van</a>, previously
+          venturing at <a href="https://www.xtremax.com/">Xtremax</a> and{' '}
+          <a href="https://www.bukalapak.com/">Bukalapak</a>. I live in
+          Singapore{' '}
+          <span role="img" aria-label="Singaporean Flag">
+            🇸🇬
+          </span>
+          with my Indonesian{' '}
+          <span role="img" aria-label="Indonesian Flag">
+            🇮🇩
+          </span>
+          wife 👰🏻 and two kids 👧🏻👦🏻.
+        </p>
+        <p>
+          To channel my enthusiasm in JavaScript & testing, I co-organize a{' '}
+          <a href="https://reactjs.id">ReactJS community in Indonesia</a>. I
+          also write some articles in Bahasa Indonesia at{' '}
+          <a href="https://medium.com/pejuang-kode">Pejuang Kode</a> Medium
+          publication and{' '}
+          <a href="https://www.pejuangkode.com">pejuangkode.com</a> website to
+          help my fellow Indonesian developers learn.
         </p>
         <p>
           Any question? You might reach me out through{' '}
