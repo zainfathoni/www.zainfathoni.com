@@ -12,11 +12,11 @@ banner: './banner.png'
 Recently we revamped our website using [Gatsby](https://www.gatsbyjs.org/) to enable us to customize its components in React.
 This talk is a story about my ups and downs in getting i18n works properly at our website to serve those countries in [two](https://www.ninjavan.co) [different](https://www.ninjaxpress.co) domains.
 
-<!-- <iframe width="700" height="400" src="https://www.youtube.com/embed/FKPKxGELIkM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+<iframe width="700" height="400" src="https://www.youtube.com/embed/wSIw0mu3Q1U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Resources
 
 - [Slides](https://i18n-gatsby.netlify.com/)
 - [Slides Repository](https://github.com/zainfathoni/i18n-gatsby)
+- [Recorded Video](https://engineers.sg/video/navigating-i18n-in-sea-with-gatsby--3827)
 - [Event Link](https://reactknowledgeable.org/meetups/5/)
-- Recorded Video (upcoming)
