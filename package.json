@@ -1,8 +1,8 @@
 {
-  "name": "www.zainfathoni.com",
+  "name": "zainfathoni.com",
   "description": "Zain Fathoni's personal website",
   "version": "1.0.0",
-  "author": "Zain Fathoni <zain.fathoni@gmail.com> (https://www.zainfathoni.com)",
+  "author": "Zain Fathoni <zain.fathoni@gmail.com> (https://zainfathoni.com)",
   "repository": "https://github.com/zainfathoni/www.zainfathoni.com",
   "dependencies": {
     "@callstack/react-theme-provider": "^3.0.5",

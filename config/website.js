@@ -4,13 +4,13 @@ module.exports = {
   siteTitleAlt:
     'Family-man, Senior Software Engineer at Ninja Van, previously at Bukalapak. Co-organizer of reactjs.id. JavaScript & Testing Enthusiast.', // Alternative Site title for SEO
   siteTitleShort: 'Zain', // short_name for manifest
-  siteUrl: 'https://www.zainfathoni.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://zainfathoni.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteLogo: 'images/zain.jpg', // Used for SEO and manifest, path to your image you placed in the 'static' folder
   siteDescription:
     'Family-man, Senior Software Engineer at Ninja Van, previously at Bukalapak. Co-organizer of reactjs.id. JavaScript & Testing Enthusiast.',
   author: 'Zain Fathoni', // Author for schemaORGJSONLD
-  organization: 'www.zainfathoni.com',
+  organization: 'zainfathoni.com',
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
   userTwitter: '@zainfathoni', // Twitter Username
@@ -18,6 +18,7 @@ module.exports = {
   ogDescription:
     'Family-man, Senior Software Engineer at Ninja Van, previously at Bukalapak. Co-organizer of reactjs.id. JavaScript & Testing Enthusiast.', // Facebook Site Description
   ogLanguage: 'en_US',
+  ogImage: 'images/zain.jpg',
   googleAnalyticsID: '',
 
   // Manifest and Progress color

@@ -15,7 +15,7 @@ export default ({ data: { site } }) => {
       >
         <h1>About Me</h1>
         <p>
-          You might know me from{' '}
+          Hello! I am Zain. You might know me from{' '}
           <Link
             to="/talk/jsconf-asia-2019"
             aria-label="My JSConf Asia 2019 talk"
