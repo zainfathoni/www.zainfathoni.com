@@ -6396,10 +6396,13 @@ gatsby-cli@^2.8.5:
     ink "^2.5.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.15.tgz#cca10e6e6bafbbfeb9fda70639a7af6c673f9d74"
-  integrity sha512-Sn94r4EEKAjngJqw761wBYkbYhAjY61cheFXSdB84m+neohislRH6a4QjW/0Rc3M36C0n5f6D8x4ZsVLdeBrcg==
+gatsby-core-utils@^1.0.15, gatsby-core-utils@^1.0.22:
+  version "1.0.22"
+  resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.22.tgz#e246c85db5223906f67251ebb0e4e2e4965d66d7"
+  integrity sha512-38W+lWb7pPiv7AjGxDx/MSWwmgnPtOejNHSxRcMXhrXNSWpiWCDoNTBM6UCXnbky82kUx4DPX5gXgw7u2s+/rA==
+  dependencies:
+    ci-info "2.0.0"
+    node-object-hash "^2.0.0"
 
 gatsby-graphiql-explorer@^0.2.25:
   version "0.2.25"
@@ -6532,17 +6535,17 @@ gatsby-plugin-meta-redirect@^1.1.1:
   dependencies:
     fs-extra "^7.0.0"
 
-gatsby-plugin-offline@^3.0.16:
-  version "3.0.16"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.16.tgz#5629fd36b42673ce9f703b289f96f43f60d3914f"
-  integrity sha512-OM8zdPet5vWy17jW8gcUWoOh/MdfXfT8zuPKgeiO32ESryoEQsQW7gZSKBSaXutyApS+ndLtNxygDwm7Ma1anA==
+gatsby-plugin-offline@^3.0.27:
+  version "3.0.27"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-3.0.27.tgz#ae8a7582a6aff2daf3bb83baeaf84d4153fc2bb8"
+  integrity sha512-RvVD0IJnlyp180FaRxCt1Dafb1502myIshSWU+pP8epWy/ugG89YEqsZrZ3IIBUS3EfSP6RcNx8b5l7FMUMPhw==
   dependencies:
-    "@babel/runtime" "^7.6.3"
+    "@babel/runtime" "^7.7.4"
     cheerio "^1.0.0-rc.3"
-    glob "^7.1.4"
+    gatsby-core-utils "^1.0.22"
+    glob "^7.1.6"
     idb-keyval "^3.2.0"
     lodash "^4.17.15"
-    slash "^3.0.0"
     workbox-build "^4.3.1"
 
 gatsby-plugin-page-creator@^2.1.27:
@@ -6987,10 +6990,10 @@ glob-to-regexp@^0.3.0:
   resolved "https://registry.yarnpkg.com/glob-to-regexp/-/glob-to-regexp-0.3.0.tgz#8c5a1494d2066c570cc3bfe4496175acc4d502ab"
   integrity sha1-jFoUlNIGbFcMw7/kSWF1rMTVAqs=
 
-glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4:
-  version "7.1.4"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.4.tgz#aa608a2f6c577ad357e1ae5a5c26d9a8d1969255"
-  integrity sha512-hkLPepehmnKk41pUGm3sYxoFs/umurYfYJCerbXEyFIWcAzvpipAgVkBqqT9RBKMGjnq6kMuyYwha6csxbiM1A==
+glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
+  version "7.1.6"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
+  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -9979,6 +9982,11 @@ node-libs-browser@^2.2.1:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
+
+node-object-hash@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/node-object-hash/-/node-object-hash-2.0.0.tgz#9971fcdb7d254f05016bd9ccf508352bee11116b"
+  integrity sha512-VZR0zroAusy1ETZMZiGeLkdu50LGjG5U1KHZqTruqtTyQ2wfWhHG2Ow4nsUbfTFGlaREgNHcCWoM/OzEm6p+NQ==
 
 node-pre-gyp@^0.12.0:
   version "0.12.0"
