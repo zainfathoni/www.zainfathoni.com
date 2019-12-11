@@ -68,6 +68,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
+    "postbuild": "cp _redirects public/_redirects && cp _headers public/_headers",
     "develop": "gatsby develop",
     "start": "serve public/",
     "now-build": "npm run build"
