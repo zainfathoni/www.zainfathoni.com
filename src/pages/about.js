@@ -59,6 +59,12 @@ export default ({ data: { site } }) => {
           help my fellow Indonesian developers learn.
         </p>
         <p>
+          Recently, I have been leading the tech team of
+          <a href="https://kawalcovid19.id">KawalCOVID19</a>
+          community to disseminate valid information regarding the COVID-19
+          pandemic in Indonesia.
+        </p>
+        <p>
           Any question? You might reach me out through{' '}
           <a href="https://t.me/zainfathoni">Telegram</a>.<br />I would love to
           keep in touch with you. 😉
