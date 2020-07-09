@@ -29,7 +29,7 @@ export default ({ data: { site } }) => {
           >
             JSConf Asia 2019
           </Link>{' '}
-          or my recent contribution at the {' '}
+          or my recent contribution at the{' '}
           <a href="https://kawalcovid19.id/tentang-kami">KawalCOVID19</a>{' '}
           community.
         </p>
@@ -62,9 +62,9 @@ export default ({ data: { site } }) => {
         </p>
         <p>
           Recently, I have been leading the tech team of{' '}
-          <a href="https://kawalcovid19.id">KawalCOVID19</a>{' '}
-          community to disseminate valid information regarding the COVID-19
-          pandemic in Indonesia.
+          <a href="https://kawalcovid19.id">KawalCOVID19</a> community to
+          disseminate valid information regarding the COVID-19 pandemic in
+          Indonesia.
         </p>
         <p>
           Any question? You might reach me out through{' '}
