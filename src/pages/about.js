@@ -28,8 +28,10 @@ export default ({ data: { site } }) => {
             aria-label="JSConf Asia 2019 program"
           >
             JSConf Asia 2019
-          </Link>
-          .
+          </Link>{' '}
+          or my recent contribution at the {' '}
+          <a href="https://kawalcovid19.id/tentang-kami">KawalCOVID19</a>{' '}
+          community.
         </p>
         <p>
           I currently work as a{' '}
@@ -59,8 +61,8 @@ export default ({ data: { site } }) => {
           help my fellow Indonesian developers learn.
         </p>
         <p>
-          Recently, I have been leading the tech team of
-          <a href="https://kawalcovid19.id">KawalCOVID19</a>
+          Recently, I have been leading the tech team of{' '}
+          <a href="https://kawalcovid19.id">KawalCOVID19</a>{' '}
           community to disseminate valid information regarding the COVID-19
           pandemic in Indonesia.
         </p>

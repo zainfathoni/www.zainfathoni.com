@@ -86,8 +86,10 @@ export default function Index({ data: { site, allMdx } }) {
             aria-label="JSConf Asia 2019 program"
           >
             JSConf Asia 2019
-          </Link>
-          ...
+          </Link>{' '}
+          or my recent contribution at the {' '}
+          <a href="https://kawalcovid19.id/tentang-kami">KawalCOVID19</a>{' '}
+          community.
           <br />
           <Link to="/about" aria-label={'View about page'}>
             More about me →
