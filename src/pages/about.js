@@ -52,7 +52,7 @@ export default ({ data: { site } }) => {
           wife 👰🏻 and two kids 👧🏻👦🏻.
         </p>
         <p>
-          To channel my enthusiasm in React, JavaScript, & frontend development
+          To channel my enthusiasm for React, JavaScript, & frontend development
           in general, I co-organize a <a href="https://reactjs.id">ReactJS </a>{' '}
           and a{' '}
           <a href="https://feid.dev">
@@ -75,7 +75,7 @@ export default ({ data: { site } }) => {
         <p>
           Recently, I also gathered a community of Indonesian learners around me
           in a <a href="https://zainf.dev/discord">Discord Server</a>. If you
-          have any question for me, come join us at my brand new{' '}
+          have any question for me, join us at my brand new{' '}
           <a href="https://zainf.dev/discord">
             <strong>Pejuang Kode</strong> Discord Server
           </a>{' '}
