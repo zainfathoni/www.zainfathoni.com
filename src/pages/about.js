@@ -52,24 +52,35 @@ export default ({ data: { site } }) => {
           wife 👰🏻 and two kids 👧🏻👦🏻.
         </p>
         <p>
-          To channel my enthusiasm in JavaScript & testing, I co-organize a{' '}
-          <a href="https://reactjs.id">ReactJS community in Indonesia</a>. I
-          also write some articles in Bahasa Indonesia at{' '}
+          To channel my enthusiasm for React, JavaScript, & frontend development
+          in general, I co-organize a <a href="https://reactjs.id">ReactJS </a>{' '}
+          and a{' '}
+          <a href="https://feid.dev">
+            Frontend Developer community in Indonesia
+          </a>
+          . I love sharing my learning journey to the community by giving{' '}
+          <a href="/talk">a few talks</a> and writing some articles in Bahasa
+          Indonesia at{' '}
           <a href="https://medium.com/pejuang-kode">Pejuang Kode</a> Medium
           publication and{' '}
           <a href="https://www.pejuangkode.com">pejuangkode.com</a> website to
           help my fellow Indonesian developers learn.
         </p>
         <p>
-          Recently, I have been leading the tech team of{' '}
-          <a href="https://kawalcovid19.id">KawalCOVID19</a> community to
-          disseminate valid information regarding the COVID-19 pandemic in
-          Indonesia.
+          I have been leading the tech team of{' '}
+          <a href="https://kawalcovid19.id">KawalCOVID19</a> community for the
+          past few months to disseminate valid information regarding the
+          COVID-19 pandemic in Indonesia.
         </p>
         <p>
-          Any question? You might reach me out through{' '}
-          <a href="https://t.me/zainfathoni">Telegram</a>.<br />I would love to
-          keep in touch with you. 😉
+          Recently, I also gathered a community of Indonesian learners around me
+          in a <a href="https://zainf.dev/discord">Discord Server</a>. If you
+          have any question for me, join us at my brand new{' '}
+          <a href="https://zainf.dev/discord">
+            <strong>Pejuang Kode</strong> Discord Server
+          </a>{' '}
+          and raise your questions over there! We would love to keep in touch
+          with you. 😉
         </p>
       </Container>
     </Layout>

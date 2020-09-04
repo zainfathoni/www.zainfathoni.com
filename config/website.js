@@ -26,6 +26,7 @@ module.exports = {
   backgroundColor: '#2b2e3c',
 
   // Social component
+  discord: 'https://zainf.dev/discord',
   twitter: 'https://twitter.com/zainfathoni/',
   twitterHandle: '@zainfathoni',
   github: 'https://github.com/zainfathoni/',
