@@ -28,6 +28,8 @@ module.exports = {
   // Social component
   discord: 'https://zainf.dev/discord',
   twitter: 'https://twitter.com/zainfathoni/',
+  facebook: 'https://www.facebook.com/zain.fathoni',
+  instagram: 'https://instagram.com/zain.fathoni',
   twitterHandle: '@zainfathoni',
   github: 'https://github.com/zainfathoni/',
   gitlab: 'https://gitlab.com/zainfathoni/',
