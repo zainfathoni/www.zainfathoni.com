@@ -5,6 +5,8 @@ import SubscribeForm from './Forms/Subscribe'
 import {
   Discord,
   Twitter,
+  Facebook,
+  Instagram,
   GitHub,
   GitLab,
   LinkedIn,
@@ -47,6 +49,8 @@ const Footer = ({ author, noSubscribeForm }) => (
         <div>
           <Discord />
           <Twitter />
+          <Facebook />
+          <Instagram />
           <GitHub />
           <GitLab />
           <LinkedIn />
