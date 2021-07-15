@@ -88,6 +88,7 @@ export default function Index({ data: { site, allMdx } }) {
             JSConf Asia 2019
           </Link>{' '}
           or my recent contribution at the{' '}
+          <a href="https://www.wargabantuwarga.com/">WargaBantuWarga</a> and{' '}
           <a href="https://kawalcovid19.id/tentang-kami">KawalCOVID19</a>{' '}
           community.
           <br />
